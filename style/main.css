@@ -12,6 +12,12 @@
 body{
     background: var(--preto);
     font-family: Helvetica, Arial, sans-serif;
+    color: #e5e5e5;
+}
+
+.billboard{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(../img/main-movie.jpg) no-repeat;
+    background-size: 100%;
 }
 
 header .container{
@@ -19,11 +25,16 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: start;
+    height: 68px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 header .logo{
     color: var(--vermelho);
-    font-family: 'Arial Black', Times;
+    font-family: Arial, Times;
     font-size: 25px;
     padding: 0 54px;
 }
@@ -36,4 +47,24 @@ header nav a{
 
 header nav a:hover{
     color: #b3b3b3;
+}
+
+/*Main Movie*/
+.main-movie{
+    font-size: 20px;
+    height: 769px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-movie .container{
+    width: 486px;
+    height: 119px;
+}
+
+.main-movie .description{
+    margin-bottom: 20px;
 }
