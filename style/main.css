@@ -15,7 +15,7 @@ body{
     color: #e5e5e5;
 }
 
-.billboard{
+.wrapper{
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(../img/main-movie.jpg) no-repeat;
     background-size: 100%;
 }
@@ -52,29 +52,30 @@ header nav a:hover{
 /*Main Movie*/
 .main-movie{
     font-size: 20px;
-    height: 769px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 150px 69px 0;
-}
-
-.main-movie .container{
-    width: 486px !important;
-    height: 119px;
+    padding: 150px 54px 0;
 }
 
 .main-movie .description{
     margin-bottom: 20px;
+    text-align: justify;
+    width: 100%;
+    max-width: 485px;
 }
 
-.title img{
-    height: 191px;
+.title{
+    max-width: 450px;
+    max-height: 191px;
+    width: 100%;
+    margin-bottom: 17px;
 }
 
 .btn{
     border: none;
-    margin-right: 15px;
+    margin-right: 7px;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
@@ -88,7 +89,7 @@ header nav a:hover{
 }
 
 .btn:nth-child(2):hover{
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(109,109,110,0.4);
     transition: .3s ease all;
 }
 
@@ -106,4 +107,26 @@ header nav a:hover{
 
 .btn i{
     margin-right: 8px;
+}
+
+.box-movie{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carousel{
+    margin-top: 90px;
+    padding: 0 54px;
+}
+
+.carousel .high{
+    margin: 20px 0;
+}
+
+.carousel .high a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #e5e5e5;
+    text-decoration: none;
 }

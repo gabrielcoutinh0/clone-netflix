@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!--OwlCSS-->
+    <link rel="stylesheet" href="style/carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/carousel/owl.theme.default.min.css">
     <title>Netflix Clone - assistir a séries online, assistir a filmes online</title>
 </head>
 
 <body>
-    <div class="billboard">
-
+    <div class="wrapper">
         <header>
             <div class="container">
                 <h2 class="logo">NETFLIX</h2>
@@ -28,7 +30,7 @@
         <main>
             <div class="main-movie">
                 <div class="container">
-                    <h3 class="title"><img src="./img/name-serie.png" alt="Série Jornada Pokémon"></h3>
+                    <img class="title" src="./img/name-serie.png" alt="Série Jornada Pokémon">
                     <p class="description">O jovem treinador Ash e seu novo amigo Goh viram pesquisadores no Laboratório
                         do Professor Cerejeira e viajam o mundo para descobrir tudo sobre os Pokémon.</p>
                     <div class="btns">
@@ -38,7 +40,53 @@
                 </div>
             </div>
         </main>
+        <div class="carousel">
+            <div class="high"><a href="#">Em Alta</a></div>
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img class="box-movie" src="./img/thesevendeadlysins.jpg" alt="The Seven Deadly Sins">
+                </div>
+                <div class="item"><img class="box-movie" src="./img/brooklynnine-nine.jpg" alt="Brookly Nine-Nine">
+                </div>
+                <div class="item"><img class="box-movie" src="./img/elite.jpg" alt="Elite"></div>
+                <div class="item"><img class="box-movie" src="./img/dramatotal.jpg" alt="Drama Total"></div>
+                <div class="item"><img class="box-movie" src="./img/cidade de gelo.jpg" alt="Cidade de Gelo"></div>
+                <div class="item"><img class="box-movie" src="./img/sweettooth.jpg" alt="Sweet Tooth"></div>
+                <div class="item"><img class="box-movie" src="./img/oincrivelmundodegumball.jpg"
+                        alt="O Incrível Mundo de Gumball"></div>
+                <div class="item"><img class="box-movie" src="./img/(des)encanto.jpg" alt="(Des)encanto"></div>
+                <div class="item"><img class="box-movie" src="./img/13reasonswhy.jpg" alt="13 Reason Why"></div>
+                <div class="item"><img class="box-movie" src="./img/atypical.jpg" alt="Atypical"></div>
+                <div class="item"><img class="box-movie" src="./img/breakingbad.jpg" alt="Breaking Bad"></div>
+                <div class="item"><img class="box-movie" src="./img/deathnote.jpg" alt="Death Note"></div>
+                <div class="item"><img class="box-movie" src="./img/eununca....jpg" alt="Eu Nunca..."></div>
+                <div class="item"><img class="box-movie" src="./img/garotadefora.jpg" alt="Garota de Fora"></div>
+                <div class="item"><img class="box-movie" src="./img/dineodragaogenial.jpg" alt="Dino o dragão genial">
+                </div>
+                <div class="item"><img class="box-movie" src="./img/gilmoregirls.jpg" alt="Gilmore Girls"></div>
+                <div class="item"><img class="box-movie" src="./img/kungfupanda3.jpg" alt="Kung Fu Panda 3"></div>
+                <div class="item"><img class="box-movie" src="./img/janethevirgin.jpg" alt="Jane the virgin"></div>
+                <div class="item"><img class="box-movie" src="./img/lupin.jpg" alt="Lupin"></div>
+                <div class="item"><img class="box-movie" src="./img/ladoalado.jpg" alt="Lado a Lado"></div>
+                <div class="item"><img class="box-movie" src="./img/naturo.jpg" alt="Naruto"></div>
+                <div class="item"><img class="box-movie" src="./img/outerbanks.jpg" alt="Outer Banks"></div>
+                <div class="item"><img class="box-movie" src="./img/paternidade.jpg" alt="Paternidade"></div>
+                <div class="item"><img class="box-movie" src="./img/pousandonoamor.jpg" alt="Pousando no Amor"></div>
+                <div class="item"><img class="box-movie" src="./img/pokemon.jpg" alt="Pokemon"></div>
+                <div class="item"><img class="box-movie" src="./img/she-ra.jpg" alt="She-ra"></div>
+                <div class="item"><img class="box-movie" src="./img/riverdale.jpg" alt="Riverdale"></div>
+                <div class="item"><img class="box-movie" src="./img/youngroyals.jpg" alt="Young Royals"></div>
+                <div class="item"><img class="box-movie" src="./img/voce.jpg" alt="Você"></div>
+                <div class="item"><img class="box-movie" src="./img/theboldtype.jpg" alt="The Bold Type"></div>
+                <div class="item"><img class="box-movie" src="./img/teenwolf.jpg" alt="Teen Wolf"></div>
+                <div class="item"><img class="box-movie" src="./img/suits.jpg" alt="Suits"></div>
+                <div class="item"><img class="box-movie" src="./img/the100.jpg" alt="The 100"></div>
+            </div>
+        </div>
     </div>
+
+    <script src="js/carousel/jquery.min.js"></script>
+    <script src="js/carousel/owl.carousel.min.js"></script>
+    <script src="js/carousel/setup.js"></script>
 </body>
 
 </html>
