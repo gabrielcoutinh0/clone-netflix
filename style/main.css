@@ -73,6 +73,10 @@ header nav a:hover{
     margin-bottom: 17px;
 }
 
+.btns{
+    display: flex;
+}
+
 .btn{
     border: none;
     margin-right: 7px;
@@ -81,6 +85,7 @@ header nav a:hover{
     cursor: pointer;
     border-radius: 5px;
     height: 41px;
+    max-width: 360px;
 }
 
 .btn:nth-child(1):hover{
@@ -96,13 +101,13 @@ header nav a:hover{
 .btn:nth-child(1){
     background-color: white;
     color: black;
-    width: 137px;
+    width: 35%;
 }
 
 .btn:nth-child(2){
     background-color: rgba(109,109,110,.50);
     color: white;
-    width: 215px;
+    width: 50%;
 }
 
 .btn i{
@@ -129,4 +134,16 @@ header nav a:hover{
     font-weight: bold;
     color: #e5e5e5;
     text-decoration: none;
+}
+
+/*Owl-Carousel*/
+.owl-dots{
+    display: none;
+}
+
+/*Resposive*/
+@media screen and (max-width: 700px){
+    header nav a{
+        display: none;
+    }
 }
