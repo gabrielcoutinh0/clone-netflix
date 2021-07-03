@@ -140,7 +140,7 @@ header nav a:hover{
 /*Footer*/
 .info{
     margin: 20px 130px 0;
-    padding: 0 54px;
+    padding: 0 74px;
 }
 
 .social-networks{
@@ -185,4 +185,18 @@ header nav a:hover{
     header nav a{
         display: none;
     }
+
+}
+
+@media screen and (max-width: 799px){
+    .footer-links li{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .info{
+        margin: 20px 0 0 0;
+        padding: 0 74px;
+    }    
 }
