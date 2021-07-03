@@ -19,4 +19,16 @@ $('.owl-carousel').owlCarousel({
             items: 6
         }
     }
-})
+});
+
+$("header .container");
+jQuery(function () {
+    jQuery(window).scroll(function () {
+        if (jQuery(this).scrollTop() > 10) {
+            $("header .container").css('background-color', 'rgba(20,20,20)');
+            $("header .container").css('transition', '.3s ease all');
+        } else {
+            $("header .container").css('background-color', 'rgba(0,0,0,0)');
+        }
+    });
+});

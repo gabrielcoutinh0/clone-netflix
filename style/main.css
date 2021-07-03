@@ -30,6 +30,7 @@ header .container{
     left: 0;
     top: 0;
     width: 100%;
+    z-index: 999;
 }
 
 header .logo{
@@ -133,6 +134,44 @@ header nav a:hover{
     font-size: 16px;
     font-weight: bold;
     color: #e5e5e5;
+    text-decoration: none;
+}
+
+/*Footer*/
+.info{
+    margin: 20px 130px 0;
+    padding: 0 54px;
+}
+
+.social-networks{
+    margin: 0 0 10px;
+}
+
+.social-networks a{
+    margin: 0 15px 0 0;
+    color: #b3b3b3;
+    font-size: 30px;
+}
+
+.info .footer-links{
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0 0 14px;
+    max-width: 980px;
+    list-style-type: none;
+}
+
+.footer-links li{
+    margin: 0 0 16px;
+    width: 25%;
+}
+
+.footer-links li a{
+    color: gray;
     text-decoration: none;
 }
 
